@@ -39,14 +39,14 @@ nav#redes-sociais img {
     width: 40px;
     margin: 10px;
     border-radius: 50%;
-    box-shadow: 2px 2px 6px rgb(57, 255, 3);
+    box-shadow: 3px 3px 6px rgb(0, 0, 0);
     box-sizing: border-box;
     display: inline;
 }
 nav#redes-sociais img:hover {
-    border: 3px solid rgb(1, 255, 27);
+    border: 1px solid rgb(255, 255, 255);
     transform: translate(-3px, -3px);
-    box-shadow: 5px 5px 10px rgb(0, 255, 60);
+    box-shadow: 6px 6px 12px rgb(0, 0, 0);
     transition: transform 0.4s, border .4s;
 }
 
@@ -61,15 +61,13 @@ nav#redes-sociais img:hover {
 }
 
 div#titulo {
-    max-width: 700px;
-    border: 1px solid rgb(255, 255, 255);
+    max-width: 700px;    
     margin: auto;
     background-color: rgb(255, 255, 255);
     margin-top: 20px;
     border-radius: 20px;
     margin-bottom: 50px;
-    transition: .3s;
-    
+    transition: .3s;    
 }
 
 div#titulo:hover {
@@ -84,16 +82,15 @@ h1{
     color: rgb(55, 84, 4);
     padding-bottom: 15px;
     padding-top: 15px; 
-    box-shadow: 2px 2px 10px rgb(5, 255, 43);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.477);
     border-radius: 15px;       
 }
 
 
 
 table {
-    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.653);
-    border-radius: 20px;  
-    transition: .5s;     
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.29);
+    border-radius: 20px;         
     padding-bottom: 10px;
     padding-top: 10px;
     background-color: rgb(255, 255, 255);
