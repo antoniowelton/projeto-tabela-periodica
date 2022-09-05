@@ -119,9 +119,71 @@ table {
 div#container {
     overflow-x: auto;
     padding-bottom: 10px;
-    padding-top: 10px;    
+    padding-top: 10px;       
 }
 
+#container-legenda {
+    max-width: 900px;
+    margin: auto;
+    padding: 8px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.356); 
+}
+
+#legenda {
+     background-color: rgb(255, 255, 255);
+     list-style: none;
+}
+#legenda > li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+p.nomes {
+    color: rgb(12, 12, 189);
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    text-align: right;    
+    padding-left: 10px;    
+}
+    
+.cor-legenda-metais, .cor-legenda-semimetais, .cor-legenda-nmetais, .cor-legenda-mat, .cor-legenda-gn, .cor-legenda-l, .cor-legenda-a,.cor-legenda-halogenios, .cor-legenda-mdt, .cor-legenda-outros {
+    background-color: blueviolet;    
+    padding-left: 20px; 
+    margin: 5px;     
+}
+
+.cor-legenda-nmetais {
+    background-color: rgb(155, 217, 48);
+}
+.cor-legenda-gn {
+    background-color: rgba(137, 43, 226, 0.573);
+}
+.cor-legenda-mat {
+    background-color: rgb(255, 140, 0);
+}
+.cor-legenda-semimetais {
+    background-color: rgba(255, 217, 0, 0.532);
+}
+
+.cor-legenda-mdt {
+    background-color: rgb(123, 181, 66);
+}
+.cor-legenda-halogenios {
+    background-color: rgba(34, 139, 34, 0.559);
+}
+.cor-legenda-l {
+    background-color: rgb(7, 202, 228);
+}
+.cor-legenda-a {
+    background-color: rgb(29, 144, 231);
+}
+.cor-legenda-metais {
+    background-color: rgba(167, 100, 100, 0.995);
+}
+.cor-legenda-outros {
+    background-color: rgba(122, 120, 120, 0.532);
+}
 
 td {
     border-radius: 15px; 
@@ -136,27 +198,32 @@ td:hover {
 
 p.especial {
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Helvetica, sans-serif;
+    font-family: Impact, Haettenschweiler, sans-serif;
     font-size: 1.3em;
     font-weight: bolder;
 }
 p.nespecial {
+    background-color: rgb(255, 255, 255);
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: .7em;
+    font-weight: bold;
     padding-top: 12px;
-    padding: 5px;
+    padding: 5px 1px;
+    border-radius: 5px;
+    margin: 2px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.638);
 }
 
 
 p.numero {
     color:  rgb(255, 255, 255);
-    width: 22px;
+    width: 19px;
     border-radius: 50%;
     font-weight: bold;
-    font-size: .6em;
+    font-size: .5em;
     padding: 3px; 
-    margin-right: 30px;
+    margin-right: 3px;
     background-color: rgb(135, 8, 226);
     margin-top: 3px;
     margin-left: 4px;
@@ -167,7 +234,7 @@ p.simbolo {
     color: rgb(0, 0, 0);
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
-    font-size: 2em;
+    font-size: 1.6em;
     text-align: center;
     padding: 0px 15px;
 }
@@ -294,7 +361,7 @@ p.numatomico {
 
 
 .lantanideos{
-    background-color: rgba(0, 0, 255, 0.585);
+    background-color: rgb(7, 202, 228);
 }
 /*
 .lantanideos:hover{
@@ -305,7 +372,7 @@ p.numatomico {
 
 
 .actinideos{
-    background-color: rgba(71, 71, 250, 0.611);
+    background-color: rgb(29, 144, 231);
 }
 /*
 .actinideos:hover{
