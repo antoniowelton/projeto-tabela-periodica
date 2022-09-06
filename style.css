@@ -36,10 +36,10 @@ nav#redes-sociais ul li {
 }
 
 nav#redes-sociais img {
-    width: 40px;
+    width: 30px;
     margin: 10px;
     border-radius: 50%;
-    box-shadow: 3px 3px 6px rgb(0, 0, 0);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.603);
     box-sizing: border-box;
     display: inline;
 }
@@ -54,7 +54,17 @@ nav#redes-sociais img:hover {
 
 .espandido {
     box-shadow: none;
-    height: 30px;
+    height: 30px;        
+}
+p.elementos {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+    font-size: .8em;
+    color: rgb(12, 12, 189);
+    text-align: right;      
+    background-color: rgb(255, 255, 255); 
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.475);
+    padding: 4px 2px;
+    border-radius: 4px;
 }
 .espandido:hover {
     background-color: rgb(255, 255, 255);
@@ -65,7 +75,7 @@ div#titulo {
     max-width: 700px;    
     margin: auto;
     background-color: rgb(255, 255, 255);    
-    border-radius: 20px;
+    border-radius: 16px;
     margin-bottom: 10px;
     transition: .3s;    
 }
@@ -101,18 +111,26 @@ table {
 
 
 #rodape{
-    border-top: 1px solid green;
+    border-top: 2px solid rgb(179, 180, 179);
     width: 90%;
     margin: auto;
+    margin-top: 30px;
+}
+#rodape a {
+    text-decoration: none;
+    color: rgb(62, 62, 252);
+}
+#rodape a:hover {
+    text-decoration: underline;
+    color: darkolivegreen;
 }
 #rodape p {
-    padding: 25px;
+    padding: 50px;
     color: rgb(2, 60, 4);
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     font-weight: bold;
-    font-size: 1.2em;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.379);
+    font-size: 1.2em;   
 }
 
 
@@ -123,7 +141,7 @@ div#container {
 }
 
 #container-legenda {
-    max-width: 900px;
+    max-width: 700px;
     margin: auto;
     padding: 8px;
     border-radius: 15px;
@@ -140,11 +158,12 @@ div#container {
 }
 
 p.nomes {
+    font-size: .7em;
     color: rgb(12, 12, 189);
     margin: 0px;
     background-color: rgb(255, 255, 255);
     text-align: right;    
-    padding-left: 10px;    
+    padding-left: 10px;     
 }
     
 .cor-legenda-metais, .cor-legenda-semimetais, .cor-legenda-nmetais, .cor-legenda-mat, .cor-legenda-gn, .cor-legenda-l, .cor-legenda-a,.cor-legenda-halogenios, .cor-legenda-mdt, .cor-legenda-outros {
@@ -206,8 +225,8 @@ p.nespecial {
     background-color: rgb(255, 255, 255);
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: .7em;
-    font-weight: bold;
+    font-size: .6em;
+    font-weight: normal;
     padding-top: 12px;
     padding: 5px 1px;
     border-radius: 5px;
